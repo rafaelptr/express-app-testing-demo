@@ -18,9 +18,9 @@
 9. Não coloque nada dentro da pasta prod por enquanto.
 10. Caso facilide, utilize comandos como esses direto da VM:
     ```
-    aws s3 cp ~/.aws/config s3://express-app-testing-demo-teste/instance-need/.aws/config
-    aws s3 cp ~/.aws/credentials s3://express-app-testing-demo-teste/instance-need/.aws/credentials
-    aws s3 cp fiap-18cld.pem s3://express-app-testing-demo-teste/instance-need/.ssh/fiap-18cld.pem
+    aws s3 cp ~/.aws/config s3://express-app-testing-demo-<NOME DIFERENCIANDO>/instance-need/.aws/config
+    aws s3 cp ~/.aws/credentials s3://express-app-testing-demo-<NOME DIFERENCIANDO>/instance-need/.aws/credentials
+    aws s3 cp fiap-18cld.pem s3://express-app-testing-demo-<NOME DIFERENCIANDO>/instance-need/.ssh/fiap-18cld.pem
     ```
 
     Só não esqueça de trocar o nome do bucket
